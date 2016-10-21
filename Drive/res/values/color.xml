@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name='red'>#FF0000</color>
+        <drawable name="transparent_background">#a0000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+</resources>

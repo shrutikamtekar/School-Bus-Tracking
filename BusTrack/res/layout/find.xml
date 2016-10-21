@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:textColor="#f3f43f"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="26dp"
+        android:onClick="findstops"
+        android:background="@drawable/busstop" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter bus no."
+        android:inputType="number" 
+        android:textColor="#ffffff">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/busonmap"
+        android:onClick="locatebus"
+        android:text="show map"
+		android:textColor="#ffffff"/>
+</RelativeLayout>
