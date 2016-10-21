@@ -27,5 +27,5 @@ The above figure show the connection of the hardware device which forms the RFID
 4.	SEL pin of the EM-18 module is connected to the Arduino pin 13.  
 **Step 3:** Connecting the 9V battery to the Arduino power supply pin.  
 **Step 4:** Burning the Arduino code  
-The Arduino code is burnt to the board using the Arduino IDE software by connecting it to the laptop using a USB cable and removing the RXD pin connection of the Arduino board. This code needs to be burned only once. The code is attached in the Appendix.
+The Arduino code is burnt to the board using the Arduino IDE software by connecting it to the laptop using a USB cable and removing the RXD pin connection of the Arduino board. This code needs to be burned only once. The code is attached in the rfid_read.ino file.
 
