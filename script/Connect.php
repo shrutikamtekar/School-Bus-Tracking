@@ -1,6 +1,6 @@
 <?php
 
-   $conn = mysql_connect("127.0.0.1:3306","root","nofearzone");
+   $conn = mysql_connect("#insert ip here#","root","nofearzone");
   $db = mysql_select_db("mydb");
 
 ?>
